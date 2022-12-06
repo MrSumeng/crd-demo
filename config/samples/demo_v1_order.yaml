@@ -1,0 +1,17 @@
+apiVersion: demo.sumeng.com/v1
+kind: Order
+metadata:
+  name: order-sample
+spec:
+  shop:
+    name: 鲜果市场
+  commodity:
+    - name: 白菜
+      price: 1
+      quantity: 5
+    - name: 黄瓜
+      price: 2
+      quantity: 5
+  totalPrice: 15
+  remark: 送货上门
+
